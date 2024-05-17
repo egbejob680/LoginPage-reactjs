@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/LoginPage-reactjs/static/css/main.443bf4a3.css",
+    "main.js": "/LoginPage-reactjs/static/js/main.1af6a381.js",
+    "static/js/453.9c5d69c4.chunk.js": "/LoginPage-reactjs/static/js/453.9c5d69c4.chunk.js",
+    "index.html": "/LoginPage-reactjs/index.html",
+    "main.443bf4a3.css.map": "/LoginPage-reactjs/static/css/main.443bf4a3.css.map",
+    "main.1af6a381.js.map": "/LoginPage-reactjs/static/js/main.1af6a381.js.map",
+    "453.9c5d69c4.chunk.js.map": "/LoginPage-reactjs/static/js/453.9c5d69c4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.443bf4a3.css",
+    "static/js/main.1af6a381.js"
+  ]
+}
