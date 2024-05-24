@@ -1,0 +1,33 @@
+.todo{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(34,197,94);
+    color:white;
+    padding: 1.5rem 1rem;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    margin-left: 9rem;
+}
+.icon{
+    
+    display: flex;
+    justify-content: space-around;
+     gap: 20px;
+
+
+}
+.todo-list {
+    /* Set flexbox properties */
+    display: flex;
+    flex-direction: column; /* Stack todos vertically */
+    /* Allow overflow to scroll if content exceeds container height */
+    overflow:auto;
+    /* Minimum height for initial rendering */
+    min-height: 200px;
+  
+    /* Optional: Set a maximum width if desired */
+    max-width: 500px; /* Example max-width */
+  }
