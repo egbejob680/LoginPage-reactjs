@@ -16,7 +16,7 @@ export const TodoWrapper = () => {
       {
         id: uuidv4(),
         task: todo,
-        completed: true,
+        completed: false,
         isEditing: false,
       },
     ]);
@@ -42,8 +42,8 @@ export const TodoWrapper = () => {
   }
 
   return (
-    <div className='todo-wrapper w-1/2 display overflow-hidden inline-block items-center my-8 mx-[500px] bg-white h-[50%] min-h-52 rounded-lg'>
-      <h1 className='todo-title'>Get Things Done!</h1>
+    <div className='todo-wrapper w-1/2 display  inline-block items-center my-8 mx-[500px] bg-white h-[50%]  rounded-lg'>
+      <h1 className='h1 font-extrabold py-16'>Get Things Done!</h1>
       <TodoForm addTodo={addTodo} />
       
           {todos.map((todo,index) => (

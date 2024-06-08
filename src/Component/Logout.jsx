@@ -6,7 +6,7 @@ function Logout() {
 
   const handleLogout = () => {
     localStorage.removeItem("currentUser");
-    navigate("/signup"); // Redirect to signup page (or another appropriate page)
+    navigate("/login"); // Redirect to login page (or another appropriate page)
   };
 
   return (
